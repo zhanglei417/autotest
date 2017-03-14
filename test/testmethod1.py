@@ -9,4 +9,8 @@ def test(a):
     print (a)
     print i
 test(123)
-print i;
+
+# 判断如果name是main则为直接调用，可以执行下面print方法。否则不执行。可以使import1引入时不执行下面print方法。
+if __name__ == "__main__":
+    print i + 1
+
